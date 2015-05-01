@@ -1,3 +1,9 @@
+//Programa Grados para el reconocimiento de grados en escalas tonales.
+// Autor: Pedro Omar Baracaldo Ramirez, pbaracal@uniandes.edu.co
+// La primera versión fué construída en 1998 en Hypercard.
+// La versión actual que usan m9s estudiantes fué construída en el 2009
+// y desarrollada en Director 8 con Lingo.
+
 var pn = 0;
 var listaGrados = [];
 var gr = 0;
