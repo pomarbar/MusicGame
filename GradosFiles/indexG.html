@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>GradosHTML</title>
+    <script type="text/javascript" src="grados.js"></script>
+    <style type="text/css">
+body
+{
+    background: black;
+    color: white;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <h3>Grados tonales</h3>
+    <p>¿Qué grado está sonando? Colócalo al frente del que le corresponde.</p>
+ 	<canvas id="c" width="500" height="500"></canvas>
+    <p><button type="button" id="bot1" onclick="NuevoSonido()"> <img src="boton3.png"/></button>
+    <input type="button" id="bot2" onclick="repetirGrado()" value="Repetir Sonido"></p>
+    <input type="button" id="bot3" onclick="evaluarRespuesta()" value="Evaluar respuesta"></p>
+	<script type="text/javascript">
+	inicio();
+	</script>
+</body>
+</html>
