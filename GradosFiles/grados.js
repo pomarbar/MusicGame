@@ -537,15 +537,16 @@ function confirmarPiano8 ()
 }
 
 function seleccionarGrado(){
+	var grado = 0;
 	if (listaGrados.length < 1){
 		listaGrados.splice(0,0,0,1,2,3,4,5,6,7);
 	} 
 	if (listaGrados.length == 1){
-		var grado = listaGrados[0];
+		grado = listaGrados[0];
 		listaGrados.splice(0,1);
 	}else{
-		var g = aleatorio(0,listaGrados.length);
-		var grado = listaGrados[g];
+		var g = aleatorio(0,listaGrados.length - 1);
+		grado = listaGrados[g];
 		listaGrados.splice(g,1);
 	}
 	// var temp = escribirLista(listaGrados);
